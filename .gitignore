@@ -70,3 +70,31 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Editor-generated UI schema. Unity recreates this when the project opens.
+/UIElementsSchema/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+.plastic/
+
+# Crash dumps and upgrade logs
+mono_crash.*
+*.stackdump
+/[Uu]pgrade[Ll]og/
+/[Uu]pgrade[Ll]og.htm
+
+# Auto-generated empty test scene
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity.meta
+
+# Visual Scripting generated output
+/[Aa]ssets/[Vv]isual[Ss]cripting.Generated/
+
+# Vendor PDF manuals shipped inside asset packs. Not used by the game.
+*.pdf
+*.pdf.meta
